@@ -52,7 +52,7 @@
             </li>
 
             <li class="nav-item">
-                <a href="./divisi.php"
+                <a href="<?= base_url('divisi.php') ?>"
                    class="nav-link text-white <?= $_SERVER['PHP_SELF'] == "/divisi.php" ? 'active' : '' ?>"
                    aria-current="page">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
